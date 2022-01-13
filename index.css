@@ -1,0 +1,63 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #857ff3;
+}
+.dialerBox{
+    position: fixed;
+    height: 30rem;
+    width: 30vw;
+    min-width: 280px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0 5px 12px rgb(0 0 0 / 0.2);
+}
+#numberBox{
+    font-family: "Exo";
+    font-size: 2rem;
+    height: 70px;
+    font-weight: bold;
+    color: #1976d2;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+.dialerRow{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-weight: bold;
+    font-family:' monospace';
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.alpha{
+    font-size: 1rem;
+    font-weight: normal;
+    cursor: pointer;
+}
+.num{
+    padding: 15px 25px;
+}
+.dialerPhone{
+    background-color: rgb(16, 165, 16);
+    color: white;
+    padding: 0.4rem 1.6rem;
+    margin: 10px;
+    border-radius: 4px;
+}
+.num:active{
+  background-color: rgb(218, 216, 216);
+}
+
+.dialerPhone:hover {
+  background-color: #81c784;
+}
+.bottom{
+    padding-top: 15px;
+}
